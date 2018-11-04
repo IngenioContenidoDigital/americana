@@ -1,12 +1,12 @@
 /nbproject
 /nbproject/*
-!/cache
-!/cache/cachefs
-!/cache/purifier
-!/cache/push
-!/cache/sandbox
-!/cache/smarty
-!/cache/tcpdf
+!cache
+!cache/cachefs
+!cache/purifier
+!cache/push
+!cache/sandbox
+!cache/smarty
+!cache/tcpdf
 /cache/*
 /cache/cachefs/*
 /cache/purifier/*
@@ -29,3 +29,7 @@
 !/img/tmp
 log/*
 !log
+/adminadc/autoupgrade/backup/*
+/adminadc/autoupgrade/tmp/*
+!adminadc/autoupgrade/backup
+!adminadc/autoupgrade/tmp
