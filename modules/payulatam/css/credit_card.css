@@ -1,0 +1,7 @@
+.error{
+  border:solid red 1px;
+}
+
+#viewcreditcard:hover{
+    cursor: pointer;
+}

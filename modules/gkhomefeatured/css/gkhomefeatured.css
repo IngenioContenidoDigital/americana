@@ -1,0 +1,107 @@
+#gkhomefeatured_block {
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 40px;
+}
+
+#gkhomefeatured_block .title_block {
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Open Sans'!important;
+}
+
+#gkhomefeatured_block .subtitulo_gkhomefeatured {
+    font-size: 16px;
+    color: #808285;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#gkhomefeatured_block .content_img img {
+    width: 100%;
+    height: auto;
+}
+
+#gkhomefeatured_block .col-md-20 .text_desc, #gkhomefeatured_block .col-md-20 .text_desc .colver-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 127, 208, .7);
+    padding: 9px;
+    cursor: pointer;
+  pointer-events: none;
+}
+
+#gkhomefeatured_block .col-md-20 .text_desc {
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+#gkhomefeatured_block .col-md-20 .text_desc .colver-border {
+    border: 1px #FFF solid;
+    background: transparent;
+    position: relative;    
+}
+
+#gkhomefeatured_block .col-md-20:hover .text_desc {
+    transition: opacity .5s ease-in-out;
+    opacity: 1;
+}
+
+#gkhomefeatured_block .col-md-20 .text_desc .colver-border .s_title_block {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#gkhomefeatured_block .col-md-20 .text_desc .colver-border .s_title_block a {
+    color: #FFF;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#gkhomefeatured_block .col-md-20 .text_desc .colver-border .s_title_block a:after {
+    content: " ";
+    position: absolute;
+    width: 28px;
+    height: 1px;
+    background-color: #FFF;
+    margin-top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#gkhomefeatured_block .col-md-20 .text_desc .colver-border .s_title_block a .fa {
+    background: rgba(255, 255, 255, .5);
+    padding: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #FFF;
+    font-size: 26px;
+    margin-bottom: 27px;
+}
+
+.col-md-20 {
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .col-md-20{
+        width: 50%;
+    }
+    
+    #gkhomefeatured_block .col-md-20:nth-child(5){
+        display: none;
+    }
+    
+    #gkhomefeatured_block .col-md-20 .text_desc .colver-border .s_title_block {
+        padding: 0px 20px;
+    }
+}

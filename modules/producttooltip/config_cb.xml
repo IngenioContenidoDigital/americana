@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>producttooltip</name>
+	<displayName><![CDATA[Informaci&oacute;n &uacute;til del producto]]></displayName>
+	<version><![CDATA[1.4.0]]></version>
+	<description><![CDATA[Muestra informaci&oacute;n en la p&aacute;gina del producto: cu&aacute;ntas personas los est&aacute;n viendo, la &uacute;ltima vez que fue vendido y la &uacute;ltima vez que fue a&ntilde;adido al carrito.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

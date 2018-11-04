@@ -1,0 +1,12 @@
+.gkranking {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.gkranking ul li {
+    cursor: pointer;
+}
+
+.gkranking ul li i {
+    color: #fee201;	
+}
