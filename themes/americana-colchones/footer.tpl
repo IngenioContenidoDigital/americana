@@ -58,7 +58,7 @@
                     <li><a href="{$link->getCMSLink('6')}">Quienes Somos</a></li>
                     <li><a href="{$link->getCMSLink('7')}">Responsabilidad Social</a></li>
                     <li><a href="{$base_dir_ssl}somos-diferentes">Somos Diferentes</a></li>
-                    <li><a href="{$link->getCMSLink('14')}">Videos</a></li>
+                    <li><a href="{$link->getCMSLink('45')}">Videos</a></li>
                     <li><a href="{$link->getCMSLink('8')}">Nuestras certificaciones</a></li>
                     <li><a href="{$link->getPageLink('contact')}">Servicio al cliente</a></li>
                     <li><a href="{$link->getCMSLink('9')}">Términos y condiciones</a></li>
@@ -80,14 +80,9 @@
     </div><!-- #footer -->
 {/if}
 <div id="gk_medios_pago" class="text-center">
-    <ul class="list-unstyled list-inline">
-        <li><strong>MEDIOS DE PAGO</strong></li>
-        <li><img src="{$img_dir}medios-pago/visa.png"></li>
-        <li><img src="{$img_dir}medios-pago/mastercard.png"></li>
-        <li><img src="{$img_dir}medios-pago/pse.png"></li>
-        <li><img src="{$img_dir}medios-pago/baloto.png"></li>
-        <li><img src="{$img_dir}medios-pago/efecty.png"></li>
-    </ul>
+    <br>
+    <p style="text-align:center;"><img src="https://secure.mlstatic.com/developers/site/cloud/banners/co/785x40_Todos-los-medios-de-pago.jpg" title="MercadoPago - Medios de pago" alt="MercadoPago - Medios de pago" width="785" height="40"/></p>
+    <br>
 </div>
 </div><!-- #page -->
 {/if}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+
+.mercadopago form{
+    margin-top: 15px;
+}
+
+.mercadopago input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #0077b3;
+    width: 150px;
+    text-align: center;
+    font-family: 'PT Mono', monospace !important;
+    background-color: transparent;
+    font-size: 12px;
+}
+.mercadopago label{
+    line-height: 5px;
+    font-size: 9px;
+}
+
+.mercadopago button{
+    margin-top:15px;
+    min-width: 125px;
+}
+
+.mercadopago button:hover{
+    background-color: #953b39 !important;
+    border: solid 1px #953b39;
+}
+
+#cardExpirationMonth{
+    width: 30px;
+}
+
+#cardExpirationYear{
+    width: 50px;
+}
+
+#cardholderName{
+    min-width: 100%;
+}
+.mercadopago input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid red;
+}
+#securityCode{
+    width:50px;
+}
+
+#cardholderName, #cardNumber{
+    text-transform: uppercase;
+}
+
+#docNumber{
+    width: 130px;
+}
+
+.mercadopago select{
+    width:120px;
+}
+
+.mercadopago form fieldset{
+    padding: 90px 25px;
+    max-width: 320px;
+    max-height: 200px;
+    background-image: url('/modules/mercadopago/img/credit-card1.png');
+    background-size: 320px;
+    background-repeat: no-repeat;
+}
+
+.identificacion{
+    background-image: url('/modules/mercadopago/img/id-card.png');
+    background-size: 320px;
+    background-repeat: no-repeat;
+    min-width: 320px;
+    min-height: 200px;
+    padding: 52px 120px;
+}
+
+.contenedor-pse{
+    background-image: url('/modules/mercadopago/img/pse-card.png');
+    background-size: 320px;
+    background-repeat: no-repeat;
+    min-width: 320px;
+    min-height: 200px;
+    padding: 52px 120px;
+}
+
+.nombre{
+    width: 180px;
+    margin-top: 15px;
+}
+
+#franquicia{
+    position:relative;
+    margin-top: -110px;
+    margin-left: 200px;
+    right: 0px;
+    width: 75px;
+}
+
+#banks{
+    min-width: 150px;
+}
+
+.mercadopago input[type="radio"]:hover{
+    cursor: pointer;
+}

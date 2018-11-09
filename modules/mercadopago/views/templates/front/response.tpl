@@ -1,0 +1,1 @@
+<div>Tu transacci&oacute;n se encuentra en Proceso.</div>
