@@ -31,9 +31,6 @@
 </div><!-- #columns -->
 </div><!-- .columns-container -->
 {hook h='gkhomefeatured'}
-<br>
-<a href="/content/44-americana-credito"><p style="text-align: center;"><img class="img-responsive" src="/img/cms/Banner-Americana-Credito-New.png" /><p></a>
-<br>
 {if isset($HOOK_FOOTER)}
     <!-- Footer -->
     <div class="footer-container">
