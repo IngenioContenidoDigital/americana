@@ -68,7 +68,9 @@
                         {if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
                             <span itemprop="price" class="price product-price">
                                 {hook h="displayProductPriceBlock" product=$product type="before_price"}
-                        {if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+                        {if !$PS_CATALOG_MODE}
+			  {if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+			{/if}
                     </span>
                     <meta itemprop="priceCurrency" content="{$currency->iso_code}" />
                     {if $product.price_without_reduction > 0 && isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
@@ -116,7 +118,9 @@
     {if isset($product.pack_quantity) && $product.pack_quantity}{$product.pack_quantity|intval|cat:' x '}{/if}
     <a class="product-name" href="{$product.link|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}" itemprop="url" >
         {$product.name|truncate:100:'...'|escape:'html':'UTF-8'}<br>
-	{if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+	{if !$PS_CATALOG_MODE}
+	  {if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+	{/if}
     </a>
 </h5>
 {capture name='displayProductListReviews'}{hook h='displayProductListReviews' product=$product}{/capture}

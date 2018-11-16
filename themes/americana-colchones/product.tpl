@@ -376,6 +376,7 @@
                     <!-- prices -->
                     <div class="clearfix"></div>
                     <div>
+			{if !$PS_CATALOG_MODE}
                         <p class="our_price_display" itemprop="offers" itemscope itemtype="https://schema.org/Offer">{strip}
                             {if $product->quantity > 0}<link itemprop="availability" href="https://schema.org/InStock"/>{/if}
                             {if $priceDisplay >= 0 && $priceDisplay <= 2}
@@ -386,7 +387,9 @@
                                 <meta itemprop="priceCurrency" content="{$currency->iso_code}" />
                                 {hook h="displayProductPriceBlock" product=$product type="price"}
                             {/if}
-                            {/strip}</p>
+                            {/strip}
+			</p>
+			{/if}
                             <p id="reduction_percent" {if $productPriceWithoutReduction <= 0 || !$product->specificPrice || $product->specificPrice.reduction_type != 'percentage'} style="display:none;"{/if}>{strip}
                                 <span id="reduction_percent_display2">
                                     {if $product->specificPrice && $product->specificPrice.reduction_type == 'percentage'}-{convertPrice price=$productPriceWithoutReduction|floatval*$product->specificPrice.reduction}{/if}
