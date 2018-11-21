@@ -53,7 +53,7 @@ $(document).ready(function()
 				},
 				extraParams: {
 					ajaxSearch: 1,
-					id_lang: id_lang
+					id_lang: 4
 				}
 			}
 		)
@@ -72,7 +72,7 @@ $(document).ready(function()
 					url: search_url + '?rand=' + new Date().getTime(),
 					data: {
 						instantSearch: 1,
-						id_lang: id_lang,
+						id_lang: 4,
 						q: $(this).val()
 					},
 					dataType: 'html',
