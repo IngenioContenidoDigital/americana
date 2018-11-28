@@ -1,12 +1,12 @@
 
-[{shop_url}] 
+[/{shop_url}] 
 
-Hello 
+Hola 
 
-This is a TEST E-MAIL from your shop.
+Esto es un MENSAJE DE PRUEBA desde tu tienda. 
 
-If you can read this, the test was successful!. 
+Si puedes leerlo, es que ¡la prueba ha sido realizada con éxito!. 
 
-{shop_name} [{shop_url}] powered by
-PrestaShop(tm) [http://www.prestashop.com/] 
+{shop_name} [/{shop_url}] creado por PrestaShop(tm)
+[http://www.prestashop.com/] 
 

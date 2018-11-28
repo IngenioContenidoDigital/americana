@@ -1,13 +1,13 @@
 
-[{shop_url}] 
+[/{shop_url}] 
 
 Hola {firstname} {lastname},
 
-Le agradecemos por realizar sus compras en {shop_name}! 
+¡Gracias por comprar en {shop_name}! 
 
-ORDER: {order_name} Placed on {date}
+PEDIDO: {order_name} Realizado el {date}
 
-PAYMENT: {payment} 		 
+PAGO: {payment} 		 
 
 REFERENCIA
 
@@ -31,15 +31,15 @@ DESCUENTOS
 
 {total_discounts} 
 
-GIFT-WRAPPING 
+EMBALAJE DE REGALO 
 
 {total_wrapping} 
 
-TRANSPORTE 
+ENVÍO 
 
 {total_shipping} 
 
-TOTAL TAX PAID 
+IMPUESTOS TOTALES PAGADOS 
 
 {total_tax_paid} 
 
@@ -49,22 +49,20 @@ TOTAL PAGADO
 
 TRANSPORTISTA: {carrier}
 
-PAYMENT: {payment} 		 
+PAGO: {payment} 		 
 
 {delivery_block_txt} 
 
 {invoice_block_txt} 
 
-You can review your order and download your invoice from the
-"Order history" [{history_url}] section of your
-customer account by clicking "My account"
-[{my_account_url}] on our shop. 
+Puede revisar su pedido y descargar la factura desde "Historial de
+pedidos" [/{history_url}] de su cuenta de cliente, haciendo clic en
+[/{my_account_url}] en nuestra tienda. 
 
-If you have a guest account, you can follow your order via the
-"Guest Tracking"
-[{guest_tracking_url}?id_order={order_name}] section
-on our shop. 
+Si tiene una cuenta de invitado, puede seguir su pedido desde la
+sección: "Seguimiento de invitado"
+[/{guest_tracking_url}?id_order={order_name}] de nuestra tienda. 
 
-{shop_name} [{shop_url}] powered by
-PrestaShop(tm) [http://www.prestashop.com/] 
+{shop_name} [/{shop_url}] creado por PrestaShop(tm)
+[http://www.prestashop.com/] 
 
