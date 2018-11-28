@@ -25,10 +25,6 @@
 
 <!-- MODULE Home Featured Products -->
 <div id="featured-products_block_center" class="block products_block clearfix">
-    <p class="black">
-    <a href="/content/46-black-days"><img class="img-responsive" src="/img/cms/black-friday.png" width="150px;"/></a>
-</p>
-<br>
 	<h4 class="title_block">{l s='Featured products' mod='homefeatured'}</h4>
 	{if isset($products) AND $products}
 		<div class="block_content">

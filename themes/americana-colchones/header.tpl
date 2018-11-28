@@ -100,7 +100,6 @@
     </div>
     {/if}
     <div id="page">
-        
         <div class="header-container">
            
             <header id="header">
@@ -141,11 +140,7 @@
                         <img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/>
                         </a>
                     </div>*}
-                    <p class="black">
-                        <a href="/content/46-black-days"><img class="img-responsive" src="/img/cms/black-friday.png" width="120px;"/></a>
-                    </p>
                     {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
-                    
                 </div>
                 {*                </div>*}
             </div>
