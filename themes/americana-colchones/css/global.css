@@ -9054,17 +9054,3 @@ div.star.star_hover:after {
 }
 
 /* ----------------------------*/
-
-.black{
-    padding: 5px;
-    background: #000000; /* Old browsers */
-background: -moz-linear-gradient(top, #000000 4%, #000000 3%, #45484d 24%, #000000 91%, #000000 98%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #000000 4%,#000000 3%,#45484d 24%,#000000 91%,#000000 98%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #000000 4%,#000000 3%,#45484d 24%,#000000 91%,#000000 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-}
-
-.black img{
-    margin-left: auto;
-    margin-right: auto;
-}
