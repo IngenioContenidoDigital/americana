@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>¿Cómo gestionar la logística dentro de tu tienda PrestaShop?</title>
+    <link>https://www.prestashop.com/es/blog/gestione-la-logistica-de-su-tienda-online-desde-dentro</link>
+    <description>¿Eres consciente de la importancia de la logística en tu eCommerce pero no sabes cómo gestionarla?</description>
+     <pubDate>Wed, 19 Dec 2018 11:09:45 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/gestione-la-logistica-de-su-tienda-online-desde-dentro</guid>
+  </item>
+  <item>
+    <title>Tendencias Social Media para eCommerce que triunfarán en 2019</title>
+    <link>https://www.prestashop.com/es/blog/tendencias-social-media</link>
+    <description>¿Conoces ya cuáles serán las mejores tendencias en Social Media para 2019, de las que podrá aprovecharse las tiendas online?</description>
+     <pubDate>Mon, 17 Dec 2018 10:34:26 +0100</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/tendencias-social-media</guid>
+  </item>
+  <item>
+    <title>¿Cómo gestionar las devoluciones en un eCommerce? 10 formas de reducirlas</title>
+    <link>https://www.prestashop.com/es/blog/10-formas-de-reducir-las-devoluciones-de-tu-tienda-online</link>
+    <description>¿Te agobia la gran cantidad de devoluciones que estás recibiendo últimamente en tu eCommerce?</description>
+     <pubDate>Fri, 14 Dec 2018 11:57:43 +0100</pubDate>
+ <dc:creator>Mariela Quiroga</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/10-formas-de-reducir-las-devoluciones-de-tu-tienda-online</guid>
+  </item>
+  <item>
+    <title>¿Qué es el Packaging y cómo influye en las ventas de tu negocio?</title>
+    <link>https://www.prestashop.com/es/blog/que-es-el-packaging</link>
+    <description>¿Te encuentras en pleno proceso de crear el packaging para tu producto y no sabes cómo empezar?</description>
+     <pubDate>Mon, 10 Dec 2018 11:39:41 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/que-es-el-packaging</guid>
+  </item>
+  <item>
+    <title>¿Cómo optimizar la página del carrito de compra en tu tienda online?</title>
+    <link>https://www.prestashop.com/es/blog/carrito-de-compra</link>
+    <description>¿Te has parado analizar si la página del carrito de compra de tu eCommerce está verdaderamente optimizado para materializar las deseadas conversiones?</description>
+     <pubDate>Wed, 05 Dec 2018 09:48:21 +0100</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/carrito-de-compra</guid>
+  </item>
+  <item>
+    <title>8 Mejores plantillas para tiendas de maquinaria y herramientas online en PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/modulos-herramientas-online</link>
+    <description>¿Estás pensando en montar una tienda de maquinaria agrícola y herramientas online a modo de repuestos?
+¿No sabes que plantilla te conviene más?</description>
+     <pubDate>Mon, 03 Dec 2018 14:37:05 +0100</pubDate>
+ <dc:creator>Mariano Larrazábal</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-herramientas-online</guid>
+  </item>
+  <item>
+    <title>¿Cómo crear una campaña de Publicidad Display en Google Ads para tu eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/crear-campana-publicidad-display-adwords</link>
+    <description>¿Conoces la importancia que pueden llegar a tener el llegar a realizar campañas de publicidad Display con tu tienda online?</description>
+     <pubDate>Fri, 30 Nov 2018 01:15:29 +0100</pubDate>
+ <dc:creator>Hao Xu</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/crear-campana-publicidad-display-adwords</guid>
+  </item>
+  <item>
+    <title>¿Que es el Naming y cómo elegir el mejor nombre para mi eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/que-es-el-naming</link>
+    <description>¿Aún no has elegido nombre para la tienda online que estás pensando en abrir? En el proceso de &quot;Naming&quot; podría estar gran parte de tu éxito como emprendedor digital.</description>
+     <pubDate>Thu, 29 Nov 2018 11:46:58 +0100</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/que-es-el-naming</guid>
+  </item>
+  <item>
+    <title>¿Cómo instalar PrestaShop en tu sitio Web? Guía paso a paso</title>
+    <link>https://www.prestashop.com/es/blog/como-instalar-prestashop-la-guia-completa</link>
+    <description>¿Quieres montar tu propio eCommerce? ¿No sabes por dónde empezar? ¿Necesitas instalar PrestaShop pero tienes dudas?</description>
+     <pubDate>Wed, 28 Nov 2018 17:08:23 +0100</pubDate>
+ <dc:creator>Antonio Torres</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/como-instalar-prestashop-la-guia-completa</guid>
+  </item>
+  <item>
+    <title>Opiniones de clientes ¿cómo benefician al SEO de mi tienda online?</title>
+    <link>https://www.prestashop.com/es/blog/opiniones-de-clientes</link>
+    <description>Las puntuaciones, las valoraciones y, en definitiva, opiniones de tus clientes sobre tus servicios o productos de tu eCommerce se han convertido en los últimos años en algo indispensable para cualq</description>
+     <pubDate>Sat, 24 Nov 2018 14:44:59 +0100</pubDate>
+ <dc:creator>ekomi_es</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/opiniones-de-clientes</guid>
+  </item>
+  </channel>
+</rss>
