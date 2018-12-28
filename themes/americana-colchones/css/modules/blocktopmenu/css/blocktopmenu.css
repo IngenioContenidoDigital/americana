@@ -1,9 +1,9 @@
-#block_top_menu {
-  padding-top: 16px; }
-
 @media (max-width: 500px) {
     #block_top_menu { padding-top: 0px; }
     #header { padding-bottom: 0px !important; margin-bottom: -5px; }
 }
 
 /*# sourceMappingURL=blocktopmenu.css.map */
+.fa-search:hover{
+    cursor:pointer;
+}

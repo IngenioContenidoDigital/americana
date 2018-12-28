@@ -5743,13 +5743,12 @@ textarea {
 
 .columns-container {
     background: #fff; 
-    margin-top: 130px;
 }
 
 #columns {
     position: relative;
     padding-bottom: 0px;
-    padding-top: 15px; }
+    /*padding-top: 15px;*/ }
 
 #index .tab-content {
     margin-top: 35px;
@@ -5759,7 +5758,7 @@ header {
     z-index: 1;
     position: relative;
     background: #fff;
-    padding-bottom: 15px; }
+    /*padding-bottom: 15px;*/ }
 header .banner {
     background: black;
     max-height: 100%; }
@@ -7159,10 +7158,10 @@ div.star a:hover {
 
 .header-container {
     background: #fff; 
-    position: fixed;
+/*    position: fixed;*/
     width:100%;
     z-index: 100;
-    margin-top: -130px;
+    /*top: 0px;*/
 }
 
 .breadcrumb {
@@ -9054,3 +9053,13 @@ div.star.star_hover:after {
 }
 
 /* ----------------------------*/
+
+.ofertas{
+    background-color: red;
+    color:white !important;
+}
+
+.ofertas:hover{
+    background-color: white;
+    color:#006fa8 !important;
+}
